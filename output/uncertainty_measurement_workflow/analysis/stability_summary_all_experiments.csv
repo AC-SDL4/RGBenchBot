@@ -1,0 +1,217 @@
+experiment,folder,channel,channel_type,norm_std
+"Jan 30
+(5:2:2)",20260130_143830_automated_5_2_2,B',normalized,0.0292804866351632
+"Jan 30
+(5:2:2)",20260130_143830_automated_5_2_2,C',normalized,0.0566843506640692
+"Jan 30
+(5:2:2)",20260130_143830_automated_5_2_2,G',normalized,0.0256734762138285
+"Jan 30
+(5:2:2)",20260130_143830_automated_5_2_2,H',normalized,0.0570025791664055
+"Jan 30
+(5:2:2)",20260130_143830_automated_5_2_2,HSV_H,raw,0.0027168981481481
+"Jan 30
+(5:2:2)",20260130_143830_automated_5_2_2,HSV_S,raw,0.0131033333333333
+"Jan 30
+(5:2:2)",20260130_143830_automated_5_2_2,HSV_V,raw,0.0147737499999999
+"Jan 30
+(5:2:2)",20260130_143830_automated_5_2_2,L',normalized,0.0364890084494948
+"Jan 30
+(5:2:2)",20260130_143830_automated_5_2_2,LAB_A,raw,0.0026972222222222
+"Jan 30
+(5:2:2)",20260130_143830_automated_5_2_2,LAB_B,raw,0.0029650326797385
+"Jan 30
+(5:2:2)",20260130_143830_automated_5_2_2,LAB_L,raw,0.01648625
+"Jan 30
+(5:2:2)",20260130_143830_automated_5_2_2,R',normalized,0.042423683464727
+"Jan 30
+(5:2:2)",20260130_143830_automated_5_2_2,RGB_B,raw,0.0123627450980392
+"Jan 30
+(5:2:2)",20260130_143830_automated_5_2_2,RGB_G,raw,0.0142024509803921
+"Jan 30
+(5:2:2)",20260130_143830_automated_5_2_2,RGB_R,raw,0.0138060457516339
+"Jan 30
+(5:2:2)",20260130_143830_automated_5_2_2,S',normalized,0.0551218486268724
+"Jan 30
+(5:2:2)",20260130_143830_automated_5_2_2,V',normalized,0.0511322280325586
+"Jan 30
+(5:2:2)",20260130_143830_automated_5_2_2,h',normalized,0.0535965923860697
+"Feb 10
+(7:1:1 dark)",20260210_150847_automated_darkest_7_1_1,B',normalized,0.0258851179578645
+"Feb 10
+(7:1:1 dark)",20260210_150847_automated_darkest_7_1_1,C',normalized,0.070567570923605
+"Feb 10
+(7:1:1 dark)",20260210_150847_automated_darkest_7_1_1,G',normalized,0.0236790322976271
+"Feb 10
+(7:1:1 dark)",20260210_150847_automated_darkest_7_1_1,H',normalized,0.0477176729692465
+"Feb 10
+(7:1:1 dark)",20260210_150847_automated_darkest_7_1_1,HSV_H,raw,0.0254718749999999
+"Feb 10
+(7:1:1 dark)",20260210_150847_automated_darkest_7_1_1,HSV_S,raw,0.0021291666666666
+"Feb 10
+(7:1:1 dark)",20260210_150847_automated_darkest_7_1_1,HSV_V,raw,0.0014083333333333
+"Feb 10
+(7:1:1 dark)",20260210_150847_automated_darkest_7_1_1,L',normalized,0.0336220497854411
+"Feb 10
+(7:1:1 dark)",20260210_150847_automated_darkest_7_1_1,LAB_A,raw,0.0011263071895424
+"Feb 10
+(7:1:1 dark)",20260210_150847_automated_darkest_7_1_1,LAB_B,raw,0.0007928104575163
+"Feb 10
+(7:1:1 dark)",20260210_150847_automated_darkest_7_1_1,LAB_L,raw,0.0005670833333333
+"Feb 10
+(7:1:1 dark)",20260210_150847_automated_darkest_7_1_1,R',normalized,0.0478772788063065
+"Feb 10
+(7:1:1 dark)",20260210_150847_automated_darkest_7_1_1,RGB_B,raw,0.0031589869281045
+"Feb 10
+(7:1:1 dark)",20260210_150847_automated_darkest_7_1_1,RGB_G,raw,0.0019897058823529
+"Feb 10
+(7:1:1 dark)",20260210_150847_automated_darkest_7_1_1,RGB_R,raw,0.0062882352941176
+"Feb 10
+(7:1:1 dark)",20260210_150847_automated_darkest_7_1_1,S',normalized,0.0830771400280341
+"Feb 10
+(7:1:1 dark)",20260210_150847_automated_darkest_7_1_1,V',normalized,0.0281777794081497
+"Feb 10
+(7:1:1 dark)",20260210_150847_automated_darkest_7_1_1,h',normalized,0.0262102374489926
+"Feb 13
+(no prime)",no_priming_20260213_073533_automated_darkest_more_yellow_7_1_1_group1_2_4,B',normalized,0.0229105727069555
+"Feb 13
+(no prime)",no_priming_20260213_073533_automated_darkest_more_yellow_7_1_1_group1_2_4,C',normalized,0.0516581187152643
+"Feb 13
+(no prime)",no_priming_20260213_073533_automated_darkest_more_yellow_7_1_1_group1_2_4,G',normalized,0.0271095314042074
+"Feb 13
+(no prime)",no_priming_20260213_073533_automated_darkest_more_yellow_7_1_1_group1_2_4,H',normalized,0.008540954507205
+"Feb 13
+(no prime)",no_priming_20260213_073533_automated_darkest_more_yellow_7_1_1_group1_2_4,HSV_H,raw,0.000871875
+"Feb 13
+(no prime)",no_priming_20260213_073533_automated_darkest_more_yellow_7_1_1_group1_2_4,HSV_S,raw,0.0035575
+"Feb 13
+(no prime)",no_priming_20260213_073533_automated_darkest_more_yellow_7_1_1_group1_2_4,HSV_V,raw,0.0015279166666666
+"Feb 13
+(no prime)",no_priming_20260213_073533_automated_darkest_more_yellow_7_1_1_group1_2_4,L',normalized,0.040680487478888
+"Feb 13
+(no prime)",no_priming_20260213_073533_automated_darkest_more_yellow_7_1_1_group1_2_4,LAB_A,raw,0.0017218954248366
+"Feb 13
+(no prime)",no_priming_20260213_073533_automated_darkest_more_yellow_7_1_1_group1_2_4,LAB_B,raw,0.0012045751633986
+"Feb 13
+(no prime)",no_priming_20260213_073533_automated_darkest_more_yellow_7_1_1_group1_2_4,LAB_L,raw,0.0007075
+"Feb 13
+(no prime)",no_priming_20260213_073533_automated_darkest_more_yellow_7_1_1_group1_2_4,R',normalized,0.0419126351228751
+"Feb 13
+(no prime)",no_priming_20260213_073533_automated_darkest_more_yellow_7_1_1_group1_2_4,RGB_B,raw,0.0044251633986928
+"Feb 13
+(no prime)",no_priming_20260213_073533_automated_darkest_more_yellow_7_1_1_group1_2_4,RGB_G,raw,0.0029181372549019
+"Feb 13
+(no prime)",no_priming_20260213_073533_automated_darkest_more_yellow_7_1_1_group1_2_4,RGB_R,raw,0.0063635620915032
+"Feb 13
+(no prime)",no_priming_20260213_073533_automated_darkest_more_yellow_7_1_1_group1_2_4,S',normalized,0.0822509785196895
+"Feb 13
+(no prime)",no_priming_20260213_073533_automated_darkest_more_yellow_7_1_1_group1_2_4,V',normalized,0.0347746118106916
+"Feb 13
+(no prime)",no_priming_20260213_073533_automated_darkest_more_yellow_7_1_1_group1_2_4,h',normalized,0.0124693611769056
+"Feb 18
+(manual)",20260218_141247_manual_pipett_by_hand,B',normalized,0.0711058650903749
+"Feb 18
+(manual)",20260218_141247_manual_pipett_by_hand,C',normalized,0.0237956721418084
+"Feb 18
+(manual)",20260218_141247_manual_pipett_by_hand,G',normalized,0.0270311056521028
+"Feb 18
+(manual)",20260218_141247_manual_pipett_by_hand,H',normalized,0.0078283510501392
+"Feb 18
+(manual)",20260218_141247_manual_pipett_by_hand,HSV_H,raw,0.0005982638888888
+"Feb 18
+(manual)",20260218_141247_manual_pipett_by_hand,HSV_S,raw,0.0010054166666666
+"Feb 18
+(manual)",20260218_141247_manual_pipett_by_hand,HSV_V,raw,0.0014491666666666
+"Feb 18
+(manual)",20260218_141247_manual_pipett_by_hand,L',normalized,0.0201296358712637
+"Feb 18
+(manual)",20260218_141247_manual_pipett_by_hand,LAB_A,raw,0.0012151960784313
+"Feb 18
+(manual)",20260218_141247_manual_pipett_by_hand,LAB_B,raw,0.0004330065359477
+"Feb 18
+(manual)",20260218_141247_manual_pipett_by_hand,LAB_L,raw,0.0005966666666666
+"Feb 18
+(manual)",20260218_141247_manual_pipett_by_hand,R',normalized,0.0626113968052931
+"Feb 18
+(manual)",20260218_141247_manual_pipett_by_hand,RGB_B,raw,0.0007346405228758
+"Feb 18
+(manual)",20260218_141247_manual_pipett_by_hand,RGB_G,raw,0.0021299019607843
+"Feb 18
+(manual)",20260218_141247_manual_pipett_by_hand,RGB_R,raw,0.0044960784313725
+"Feb 18
+(manual)",20260218_141247_manual_pipett_by_hand,S',normalized,0.0136374727172904
+"Feb 18
+(manual)",20260218_141247_manual_pipett_by_hand,V',normalized,0.0311955545739672
+"Feb 18
+(manual)",20260218_141247_manual_pipett_by_hand,h',normalized,0.007582400091871
+"Feb 24
+(BEST)",BEST_20260224_123236_automated_darkest_most_yellow_7_1_1,B',normalized,0.0179852788329164
+"Feb 24
+(BEST)",BEST_20260224_123236_automated_darkest_most_yellow_7_1_1,C',normalized,0.0342292358605969
+"Feb 24
+(BEST)",BEST_20260224_123236_automated_darkest_most_yellow_7_1_1,G',normalized,0.0310326058099738
+"Feb 24
+(BEST)",BEST_20260224_123236_automated_darkest_most_yellow_7_1_1,H',normalized,0.0063601718764755
+"Feb 24
+(BEST)",BEST_20260224_123236_automated_darkest_most_yellow_7_1_1,HSV_H,raw,0.00056875
+"Feb 24
+(BEST)",BEST_20260224_123236_automated_darkest_most_yellow_7_1_1,HSV_S,raw,0.00198375
+"Feb 24
+(BEST)",BEST_20260224_123236_automated_darkest_most_yellow_7_1_1,HSV_V,raw,0.0017554166666666
+"Feb 24
+(BEST)",BEST_20260224_123236_automated_darkest_most_yellow_7_1_1,L',normalized,0.0270199267931799
+"Feb 24
+(BEST)",BEST_20260224_123236_automated_darkest_most_yellow_7_1_1,LAB_A,raw,0.0011403594771241
+"Feb 24
+(BEST)",BEST_20260224_123236_automated_darkest_most_yellow_7_1_1,LAB_B,raw,0.0004370915032679
+"Feb 24
+(BEST)",BEST_20260224_123236_automated_darkest_most_yellow_7_1_1,LAB_L,raw,0.0011079166666666
+"Feb 24
+(BEST)",BEST_20260224_123236_automated_darkest_most_yellow_7_1_1,R',normalized,0.0367266076283867
+"Feb 24
+(BEST)",BEST_20260224_123236_automated_darkest_most_yellow_7_1_1,RGB_B,raw,0.0030499999999999
+"Feb 24
+(BEST)",BEST_20260224_123236_automated_darkest_most_yellow_7_1_1,RGB_G,raw,0.00245
+"Feb 24
+(BEST)",BEST_20260224_123236_automated_darkest_most_yellow_7_1_1,RGB_R,raw,0.0052741830065359
+"Feb 24
+(BEST)",BEST_20260224_123236_automated_darkest_most_yellow_7_1_1,S',normalized,0.0506224185352667
+"Feb 24
+(BEST)",BEST_20260224_123236_automated_darkest_most_yellow_7_1_1,V',normalized,0.0294479337716069
+"Feb 24
+(BEST)",BEST_20260224_123236_automated_darkest_most_yellow_7_1_1,h',normalized,0.0087032913136656
+"Mar 13
+(6:2:1)",20260313_110043_automated_6_2_1,B',normalized,0.0421442734899778
+"Mar 13
+(6:2:1)",20260313_110043_automated_6_2_1,C',normalized,0.0361059272280676
+"Mar 13
+(6:2:1)",20260313_110043_automated_6_2_1,G',normalized,0.0343226745493672
+"Mar 13
+(6:2:1)",20260313_110043_automated_6_2_1,H',normalized,0.0100723470824639
+"Mar 13
+(6:2:1)",20260313_110043_automated_6_2_1,HSV_H,raw,0.0006199074074074
+"Mar 13
+(6:2:1)",20260313_110043_automated_6_2_1,HSV_S,raw,0.00172125
+"Mar 13
+(6:2:1)",20260313_110043_automated_6_2_1,HSV_V,raw,0.00148375
+"Mar 13
+(6:2:1)",20260313_110043_automated_6_2_1,L',normalized,0.0229427793644744
+"Mar 13
+(6:2:1)",20260313_110043_automated_6_2_1,LAB_A,raw,0.0012055555555555
+"Mar 13
+(6:2:1)",20260313_110043_automated_6_2_1,LAB_B,raw,0.0006397058823529
+"Mar 13
+(6:2:1)",20260313_110043_automated_6_2_1,LAB_L,raw,0.0006416666666666
+"Mar 13
+(6:2:1)",20260313_110043_automated_6_2_1,R',normalized,0.0458187623932947
+"Mar 13
+(6:2:1)",20260313_110043_automated_6_2_1,RGB_B,raw,0.0040658496732026
+"Mar 13
+(6:2:1)",20260313_110043_automated_6_2_1,RGB_G,raw,0.0023228758169934
+"Mar 13
+(6:2:1)",20260313_110043_automated_6_2_1,RGB_R,raw,0.0053397058823529
+"Mar 13
+(6:2:1)",20260313_110043_automated_6_2_1,S',normalized,0.0468418326092015
+"Mar 13
+(6:2:1)",20260313_110043_automated_6_2_1,V',normalized,0.0309505372283212
+"Mar 13
+(6:2:1)",20260313_110043_automated_6_2_1,h',normalized,0.010233758443468

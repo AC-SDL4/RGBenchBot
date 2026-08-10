@@ -182,7 +182,7 @@ def main():
             raise FileNotFoundError(
                 "No color_matching_results.csv found under 'output'. "
                 "Pass a path explicitly, for example: "
-                "python analyze_color_matching_results.py output/color_matching_workflow/20260320_081432_LAB"
+                "python analysis/color_matching_analysis.py output/color_matching_workflow/20260320_081432_LAB"
             )
     rows, _target_row = _load_experiment_rows(csv_path)
     _compute_input_distances(rows, args.target_r, args.target_y, args.target_b)

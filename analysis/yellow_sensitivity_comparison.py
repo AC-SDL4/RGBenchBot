@@ -3,8 +3,8 @@ import numpy as np
 from sklearn.linear_model import LinearRegression
 
 datasets = {
-    'Low Yellow (more)': 'output/uncertainty_measurement_workflow/20260217_144032_automated_darkest_more_yellow_7_1_1',
-    'High Yellow (most)': 'output/uncertainty_measurement_workflow/20260223_145629_automated_darkets_most_yellow_7_1_1_20_missing'
+    'More Yellow (Feb 13, no priming)': 'output/uncertainty_measurement_workflow/no_priming_20260213_073533_automated_darkest_more_yellow_7_1_1_group1_2_4',
+    'Most Yellow (Feb 24, BEST)': 'output/uncertainty_measurement_workflow/BEST_20260224_123236_automated_darkest_most_yellow_7_1_1',
 }
 
 channels = ['LAB_B', 'RGB_G', 'LAB_A', 'B_prime', 'G_prime', 'A_prime']

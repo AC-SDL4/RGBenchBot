@@ -15,7 +15,7 @@ except Exception:
     DND_FILES = None
     TkinterDnD = None
 
-from analyze_color_matching_results import (
+from color_matching_analysis import (
     _compute_input_distances,
     _find_latest_results_csv,
     _load_experiment_rows,

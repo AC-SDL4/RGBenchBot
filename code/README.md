@@ -2,9 +2,9 @@
 
 ## Basic installation instructions:
 1. Install [Python version 3.10.11](https://www.python.org/downloads/release/python-31011/) and a code editor (e.g., [Visual Studio Code](https://code.visualstudio.com/Download)), if they aren’t already installed.
-2.	Download the `code` folder, which includes all the code used to control the dispenser. Below are more details about the code structure, workflows and tests to run when setting up the dispenser.
+2.     Clone or download the **entire repository** (all code lives at the repo root and in subfolders — not inside a `code/` subdirectory).
 3.	Plug in the USB cables for the CNC machine, microcontroller (actuator) and USB camera. On Windows, use the device manager app to find the COM PORT number of the CNC machine and microcontroller and determine the camera index (usually 0 or 1) of the USB camera.
-4.	Create a virtual environment for this project and install the python packages listed in `code/requirements.txt`.
+4.     Create a virtual environment for this project and install the python packages listed in `requirements.txt` (at the repo root).
 5.	Edit the COM PORT numbers in the code when initializing the dispenser or individual components to run tests and workflows.
 	  -  For example: `dispenser = Liquid_Dispenser(cnc_comport="COM4", camera_index=0, acutuator_comport="COM3")` or `cnc = CNC_Machine(com = "COM4")`
 

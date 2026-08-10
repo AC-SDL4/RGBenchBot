@@ -855,10 +855,12 @@ def analyze_dataset(dataset_path):
 
 if __name__ == "__main__":
     import sys
-    
+
     if len(sys.argv) > 1:
         dataset_path = sys.argv[1]
     else:
-        dataset_path = "output/uncertainty_measurement_workflow/20260213_073533_automated_darkest_more_yellow_7_1_1"
-    
+        print("Usage: python tests/analysis/stability_sensitivity_analysis.py <path_to_experiment_folder>")
+        print("Example: python tests/analysis/stability_sensitivity_analysis.py output/uncertainty_measurement_workflow/BEST_20260224_123236_automated_darkest_most_yellow_7_1_1")
+        sys.exit(1)
+
     analyze_dataset(dataset_path)

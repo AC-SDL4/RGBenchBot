@@ -1,32 +1,58 @@
 # Analysis Scripts
 
-This folder contains the streamlined analysis tools for uncertainty workflow outputs.
+Post-processing and analysis tools for uncertainty measurement workflow outputs.
 
-- `uncertainty_plot_and_stats.py`: Primary analysis and plotting script. Generates trends, normalized channels (`R'`, `G'`, `B'`, LAB, HSV), dotted expected overlays (water-scaled `R*0.9`, `Y*0.9`, `B*0.9`), group stats, and ANOVA.
-- `validate_normalized.py`: Sanity checks for `normalized_channels.csv` (ranges, sum-to-one where applicable).
-- `concentration_calibration.py`: Fits a simple mixing model from normalized RGB to dye fractions; predicts fractions per well and outputs calibration plots.
+## Main Analysis Scripts
 
-Notes:
-- Expected compositions are centralized in `uncertainty_plot_and_stats.get_expected_compositions()`.
-- RGB normalization uses sRGB gamma decode to linear-light before computing fractions.
+### `uncertainty_plot_and_stats.py`
+Primary per-experiment analysis script. Run this on a single uncertainty experiment folder.
 
-## Camera sRGB Check
-Use `camera_srgb_check.py` to verify the camera delivers 8‑bit, 3‑channel frames and to estimate whether frames are sRGB‑like gamma coded.
+**Outputs:** trend plots (RGB/LAB/HSV), normalized channel CSVs (`R'`, `G'`, `B'`, LAB, HSV), expected-value overlays, group stats, ANOVA table.
 
-Example:
+```bash
+python tests/analysis/uncertainty_plot_and_stats.py output/uncertainty_measurement_workflow/BEST_20260224_123236_automated_darkest_most_yellow_7_1_1
+```
+
+### `stability_sensitivity_analysis.py`
+Deeper per-experiment analysis: stability (normalized std per channel), sensitivity (R² of each channel vs dye volumes), standardized regression coefficients, and combined stability-vs-sensitivity plots.
+
+**Outputs:** heatmaps, bar charts, scatter plots, `stability_metrics.csv`, `sensitivity_coefficients.csv` — all saved into the experiment's folder.
+
+```bash
+python tests/analysis/stability_sensitivity_analysis.py output/uncertainty_measurement_workflow/BEST_20260224_123236_automated_darkest_most_yellow_7_1_1
+```
+
+### `concentration_calibration.py`
+Fits a linear mixing model from normalized RGB values to dye volume fractions. Predicts composition per well and produces calibration plots. Imports helpers from `uncertainty_plot_and_stats.py`.
+
+```bash
+python tests/analysis/concentration_calibration.py output/uncertainty_measurement_workflow/BEST_20260224_123236_automated_darkest_most_yellow_7_1_1
+```
+
+## Validation / Utility Scripts
+
+### `validate_normalized.py`
+Sanity-checks a `normalized_channels.csv` file: verifies value ranges and sum-to-one constraints for each channel group (RGB, LAB, HSV). Run after `uncertainty_plot_and_stats.py`.
+
+```bash
+python tests/analysis/validate_normalized.py output/uncertainty_measurement_workflow/BEST_20260224_123236_automated_darkest_most_yellow_7_1_1/normalized_channels.csv
+```
+
+### `camera_srgb_check.py`
+One-time hardware check: verifies the camera delivers 8-bit 3-channel frames and estimates whether the output is sRGB gamma-encoded. Run this when setting up a new camera or capture pipeline.
 
 ```bash
 python tests/analysis/camera_srgb_check.py --device 0 --backend dshow --width 1280 --height 720
 ```
 
-What it does:
-- Captures a frame, checks `uint8` dtype and 3‑channel shape.
-- Records capture properties (width/height/fps/FourCC/convert_rgb).
-- Saves a sample PNG and a text report under `output/cnc_camera_test/<timestamp>/camera_srgb_check/`.
-- Compares luminance under linear vs sRGB decode vs pure gamma=2.2; a ratio (MSE_gamma22/MSE_linear) < 0.6 suggests sRGB‑like gamma behavior.
+Saves a report and sample image to `output/cnc_camera_test/<timestamp>/camera_srgb_check/`.
 
-Notes:
-- On Windows, `--backend dshow` typically yields stable capture of BGR8 frames.
-- If you want to also save the raw numpy array, add `--save-npy`.
+### `make_post_conditioning_validation.py`
+Generates a post-conditioning volume validation figure from hardcoded January 2026 calibration measurements. One-off script; not intended for regular use.
 
-Deprecated helpers were removed to reduce redundancy. Use the main script and validators above for routine analysis.
+---
+
+## Notes
+- Expected compositions for each experiment are defined in `uncertainty_plot_and_stats.get_expected_compositions()`.
+- RGB normalization uses sRGB gamma decode to linear-light before computing mixing fractions.
+- The cross-experiment summary plots in `output/uncertainty_measurement_workflow/analysis/` were generated externally and are not reproducible from scripts in this folder.

@@ -10,7 +10,7 @@ import sys
 import os
 
 # Add workflows directory to path
-sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'workflows'))
 
 def test_optimizer_import(optimizer_type):
     """Test that optimizer can be imported successfully"""

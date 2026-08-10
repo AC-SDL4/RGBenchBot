@@ -24,7 +24,7 @@ class Liquid_Dispenser:
       - Compatible with all component logging systems
     """
     
-    def __init__(self, cnc_comport, actuator_comport, camera_index=0, output_dir="well_plate_photos", 
+    def __init__(self, cnc_comport, actuator_comport, camera_index=0, output_dir="output/well_plate_photos", 
                  virtual=False, log_level=logging.INFO, log_filename=None):
         """
         Initialize the complete liquid dispensing system.

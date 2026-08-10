@@ -20,7 +20,7 @@ class Camera:
       - Compatible with CNC_Machine logging system
     """
     
-    def __init__(self, camera_index=0, output_dir="captured_images", virtual=False, log_level=logging.INFO, log_filename=None,
+    def __init__(self, camera_index=0, output_dir="output/captured_images", virtual=False, log_level=logging.INFO, log_filename=None,
                  anti_flicker_hz: int = 60, preferred_fourcc: str = "MJPG", target_fps: int = 30):
         """
         Initialize the camera controller.

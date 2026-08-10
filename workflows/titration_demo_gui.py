@@ -20,7 +20,7 @@ WATER_NAOH_VIAL = 4   # dedicated rinse/conditioning water for NaOH line
 NUM_REPEATS = 10
 BLOWOUT_REPEATS_START = 5
 COLOR_SPACE = "RGB"   # "RGB", "LAB", "HSV"
-OUTPUT_DIR  = "well_plate_photos"  # matches Liquid_Dispenser default
+OUTPUT_DIR  = "output/titration_demo"  # output folder for titration photos
 
 ACID_VOLUME_ML = 0.60
 BASE_VOLUME_ML = 0.10

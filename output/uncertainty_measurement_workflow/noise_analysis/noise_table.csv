@@ -1,0 +1,5 @@
+Noise Ratio,RGB,LAB,HSV
+sigma_well_auto / sigma_meas_auto,8.89,30.55,13.62
+sigma_well_manual / sigma_meas_manual,9.42,23.00,16.88
+sigma_well_auto / sigma_well_manual,1.36,1.29,1.05
+sigma_meas_auto / sigma_meas_manual,1.65,1.09,1.23

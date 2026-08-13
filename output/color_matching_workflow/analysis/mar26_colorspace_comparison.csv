@@ -1,0 +1,4 @@
+label,n_total,d_min_mL,steps_off,n_hits_1step,pct_hits_1step,n_hits_2step,pct_hits_2step,first_found_iter,pct_used_to_find,first_1step_iter,pct_used_1step,obj_correct,n_tied_at_best,steps_obj,steps_best,steps_gap,alignment_str,best_obj_R,best_obj_Y,best_obj_B,best_obj_d,best_d_R,best_d_Y,best_d_B
+LAB,23,0.0707,1.0,4,17.4,6,26.1,21,91.3,15.0,65.2,True,4,1.0,1.0,0.0,YES — picked 1 of 4 tied well(s) at 1.0 steps,0.35,0.6,0.05,0.0707,0.4,0.6,0.0
+RGB,23,0.0707,1.0,3,13.0,6,26.1,15,65.2,9.0,39.1,False,3,1.73,1.0,0.73,NO  — objective picked 1.7 steps; true best was 1.0 steps (+0.7 gap); 3 well(s) tied at best,0.45,0.45,0.1,0.1225,0.4,0.6,0.0
+HSV,23,0.3742,5.29,0,0.0,0,0.0,15,65.2,,,False,1,7.21,5.29,1.92,NO  — objective picked 7.2 steps; true best was 5.3 steps (+1.9 gap); 1 well(s) tied at best,0.7,0.15,0.15,0.5099,0.5,0.25,0.25
